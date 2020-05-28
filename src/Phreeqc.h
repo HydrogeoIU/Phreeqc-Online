@@ -1692,7 +1692,7 @@ protected:
 
 	int count_total_steps;
 	int phast;
-	LDBLE *llnl_temp, *llnl_adh, *llnl_bdh, *llnl_bdot, *llnl_co2_coefs;
+	LDBLE *llnl_temp, *llnl_adh, *llnl_bdh, *llnl_bdot, *llnl_co2_coefs, a_llnl, b_llnl;
 	int llnl_count_temp, llnl_count_adh, llnl_count_bdh, llnl_count_bdot,
 		llnl_count_co2_coefs;
 
